@@ -1,0 +1,3 @@
+const checks=[...document.querySelectorAll('.lessonCheck')];
+function refresh(){let count=0;checks.forEach(c=>{const saved=localStorage.getItem('fartbin:'+c.dataset.key)==='1';c.checked=saved;if(saved)count++;});const all=28;const t=document.getElementById('progressText');const b=document.getElementById('progressBar');if(t)t.textContent=`${count} / ${all} lessons complete`;if(b)b.style.width=`${(count/all)*100}%`;}
+checks.forEach(c=>c.addEventListener('change',()=>{localStorage.setItem('fartbin:'+c.dataset.key,c.checked?'1':'0');refresh();}));refresh();

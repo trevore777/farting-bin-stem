@@ -1,0 +1,12 @@
+{
+  "templateName": "Year 9 STEM – Engineering Evidence Journey",
+  "suggestedFields": [
+    {"section":"1. Understand","prompt":"What problem are you solving? Who is the user and what does the solution need to do?","evidence":["problem statement","research","photos","success criteria"]},
+    {"section":"2. Design","prompt":"Show your ideas and explain why you selected your final design.","evidence":["annotated sketches","CAD screenshots","dimensions","circuit diagram","BOM"]},
+    {"section":"3. Make","prompt":"Document what you manufactured and assembled. Explain any changes from your design.","evidence":["laser-cut parts","3D print","assembly photographs","safety checks"]},
+    {"section":"4. Code","prompt":"Show how your program reads the sensor and controls the sound system.","evidence":["annotated code","Serial Monitor","debug notes","working test"]},
+    {"section":"5. Test","prompt":"Test your system systematically and record quantitative results.","evidence":["test plan","20+ trial results","success rate","identified failures"]},
+    {"section":"6. Improve","prompt":"What did the evidence tell you to change? Show the change and retest it.","evidence":["before/after photos","changed code/design","retest data","comparison"]},
+    {"section":"7. Evaluate","prompt":"Evaluate the final solution against each success criterion and reflect on your contribution.","evidence":["criteria evaluation","final photos","reflection","peer/teacher feedback"]}
+  ]
+}
